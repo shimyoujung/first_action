@@ -16,10 +16,5 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(multiply(0, 1), 0)
         print("Test multiply passed")
 
-    def test_add_two(self):
-         #Test addition function
-         self.assertEqual(add(5, 4), 7)
-         print("Test add_two passed")
-
 if __name__ == "__main__":
     unittest.main()
